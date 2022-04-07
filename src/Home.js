@@ -1,10 +1,11 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
+import './home.css'
 const Home = () => {
     return (
         <Container fluid>
             <h4>React-Bootstrap Carousel Component</h4>
-            <Carousel>
+            <Carousel variant="dark">
                 <Carousel.Item interval={1500}>
                     <img
                         className="d-block w-100"
@@ -12,14 +13,14 @@ const Home = () => {
                         alt="QC Prof Stat Screenshot"
                     />
                     <Carousel.Caption>
-                        <h3>QC Prof Stat</h3>
-                        <p>Allows Students To See Grading Distribution</p>
+                        <h3 class="qc">QC Prof Stat</h3>
+                        <p class="qc">Allows Students To See Grading Distribution</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
                     <img
                         className="d-block w-100"
-                        src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+                        src="/img/social.png"
                         alt="Two"
                     />
                     <Carousel.Caption>

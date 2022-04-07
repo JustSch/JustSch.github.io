@@ -2,6 +2,7 @@ import {HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import Projects from './Projects'
 
+
 function App() {
   return (
     <Router>

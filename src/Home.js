@@ -6,11 +6,11 @@ import 'animate.css/animate.css';
 const Home = () => {
     return (
         <Container fluid>
-            <Container fluid className="animate__animated animate__rubberBand p-5">
-                <h1 className="text-center display-3 p-5">
+            <Container fluid className="p-5">
+                <h1 className="animate__animated animate__lightSpeedInLeft text-center display-3 p-5">
                     Justin Schreiber
                 </h1>
-                <p className="text-center display-1 p-5"><strong>He's. So. Pro.</strong></p>
+                <p className="animate__animated animate__rubberBand text-center display-1 p-5"><strong>He's. So. Pro.</strong></p>
             </Container>
             <Container fluid>
             <Carousel variant="dark">

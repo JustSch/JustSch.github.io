@@ -19,6 +19,9 @@ const NavbarElement = () => {
                     <Nav.Link href="https://www.linkedin.com/in/justin-schreiber/">
                         LinkedIn
                     </Nav.Link>
+                    <Nav.Link href="/blog">
+                        Blog
+                    </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
                 <Button href="mailto:jschreiber234@gmail.com">

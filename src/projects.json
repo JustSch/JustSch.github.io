@@ -1,0 +1,24 @@
+{
+    "projects": [
+      {
+        "name": "QC Prof Stat",
+        "description": "A website that displays the grading distribution of professors at Queens College built with NodeJS and MySQL available at qc-prof-stat.herokuapp.com"
+      },
+      {
+        "name": "Social Media Clone",
+        "description": "An attempt to replicate the functions of a social media web application using NodeJS web server and mongo DB database"
+      },
+      {
+          "name": "Don't Stray Behind",
+          "description": " Collaborated with a team as participants in Lehman Hackathon Fall 2019 and created a service, built with Flask (Python) as a backend and HTML, CSS, JavaScript as a frontend, called Don’t Stray Behind to help people bring strays to animal shelters"
+      },
+      {
+          "name": "Tip Calculator",
+          "description": "Developed an Android Application Written in Java that calculates tip amount based on a user’s input"
+      },
+      {
+          "name": "Age Calculator",
+          "description": "Developed a program in C++ with QT and an Android (Java) Port that calculates a user’s age using their date of birth and the current system date"
+      }
+    ]
+  }

@@ -5,8 +5,11 @@ import Button from "react-bootstrap/Button";
 const Home = () => {
     return (
         <Container fluid>
-            <Container fluid>
-                <p className="g-col-md-4">He's. So. Pro.</p>
+            <Container fluid className="p-5">
+                <h1 className="text-center display-3 p-5">
+                    Justin Schreiber
+                </h1>
+                <p className="text-center display-1 p-5"><strong>He's. So. Pro.</strong></p>
             </Container>
             <Container fluid>
             <Carousel variant="dark">

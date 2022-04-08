@@ -1,7 +1,7 @@
 const Projects = () => {
     return ( 
         <div>
-            <p>PLACEHOLDER TEXT</p>
+            <p className="text-center">PLACEHOLDER TEXT</p>
         </div>
      );
 }

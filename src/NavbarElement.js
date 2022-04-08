@@ -2,11 +2,14 @@ import { Container, Nav, Button } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 const NavbarElement = () => {
     return ( 
-        <Navbar bg="light" variant="light">
-            <Container>
+        <Navbar bg="light" variant="light" expand="lg">
+            <Container>                
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Brand href="/">
                     Justin Schreiber
                 </Navbar.Brand>
+                <Navbar.Collapse id="basic-navbar-nav">
+                    
                 <Nav className="me-auto">
                     <Nav.Link href="/#/projects">
                         Projects
@@ -18,6 +21,7 @@ const NavbarElement = () => {
                         LinkedIn
                     </Nav.Link>
                 </Nav>
+                </Navbar.Collapse>
                 <Button href="mailto:jschreiber234@gmail.com">
                     Contact Me
                 </Button>

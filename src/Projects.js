@@ -12,7 +12,7 @@ const Projects = () => {
 }
 
 const RenderProjects = Project.projects.map(projectItem =>
-    <div key={projectItem.name} className="d-flex justify-content-center">        
+    <div key={projectItem.name}>        
         <Card >
             <Card.Body>
                 <Card.Title><a href={projectItem.link}>{projectItem.name}</a></Card.Title>

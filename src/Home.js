@@ -2,10 +2,11 @@ import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import './home.css'
 import Button from "react-bootstrap/Button";
+import 'animate.css/animate.css';
 const Home = () => {
     return (
         <Container fluid>
-            <Container fluid className="p-5">
+            <Container fluid className="animate__animated animate__rubberBand p-5">
                 <h1 className="text-center display-3 p-5">
                     Justin Schreiber
                 </h1>
@@ -20,8 +21,8 @@ const Home = () => {
                         alt="QC Prof Stat Screenshot"
                     />
                     <Carousel.Caption>
-                        <h3 class="qc">QC Prof Stat</h3>
-                        <p class="qc">Allows Students To See Grading Distribution</p>
+                        <h3 className="qc">QC Prof Stat</h3>
+                        <p className="qc">Allows Students To See a Grading Distribution</p>
                         <Button variant="secondary" className="float-end" href="https://qc-prof-stat.herokuapp.com">See It Here</Button>
                     </Carousel.Caption>
                 </Carousel.Item>

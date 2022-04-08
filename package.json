@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://justsch.github.io/",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3",
     "gh-pages": "^3.2.3",
     "react": "^18.0.0",

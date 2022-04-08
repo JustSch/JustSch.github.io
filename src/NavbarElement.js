@@ -8,8 +8,7 @@ const NavbarElement = () => {
                 <Navbar.Brand href="/">
                     Justin Schreiber
                 </Navbar.Brand>
-                <Navbar.Collapse id="basic-navbar-nav">
-                    
+                <Navbar.Collapse id="basic-navbar-nav">                   
                 <Nav className="me-auto">
                     <Nav.Link href="/#/projects">
                         Projects

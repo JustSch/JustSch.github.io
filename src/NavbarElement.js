@@ -24,8 +24,8 @@ const NavbarElement = () => {
                     </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
-                <Button href="mailto:jschreiber234@gmail.com">
-                    Contact Me
+                <Button href="/#/about">
+                    About Me
                 </Button>
             </Container>
         </Navbar>

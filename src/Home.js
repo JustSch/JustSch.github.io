@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import './home.css'
+import Button from "react-bootstrap/Button";
 const Home = () => {
     return (
         <Container fluid>
@@ -15,6 +16,7 @@ const Home = () => {
                     <Carousel.Caption>
                         <h3 class="qc">QC Prof Stat</h3>
                         <p class="qc">Allows Students To See Grading Distribution</p>
+                        <Button variant="secondary" className="float-end" href="https://qc-prof-stat.herokuapp.com">Check Out Here</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
@@ -24,9 +26,10 @@ const Home = () => {
                         alt="Two"
                     />
                     <Carousel.Caption>
-                        <h3>Label for second slide</h3>
-                        <p>Sample Text for Image Two</p>
-                    </Carousel.Caption>
+                        <h3>Social Media Clone</h3>
+                        <p>Clone Of A Social Media Website</p>
+                        <Button variant="secondary" className="float-end" href="https://github.com/JustSch/SocialMediaClone">Check Out Here</Button>
+                    </Carousel.Caption>                    
                 </Carousel.Item>
             </Carousel>
         </Container>

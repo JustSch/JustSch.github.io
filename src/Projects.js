@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Projects = () => {
     return (
         <div>
-            <Container>
+            <Container className="pt-3">
             {RenderProjects}
             </Container>           
         </div>
@@ -13,9 +13,9 @@ const Projects = () => {
 
 const RenderProjects = Project.projects.map(projectItem =>
     <div key={projectItem.name}>        
-        <Card >
-            <Card.Body>
-                <Card.Title><a href={projectItem.link}>{projectItem.name}</a></Card.Title>
+        <Card>
+        <Card.Header><a href={projectItem.link}><strong>{projectItem.name}</strong></a></Card.Header>
+            <Card.Body>               
                 <Card.Text>
                 {projectItem.description}
                 </Card.Text>

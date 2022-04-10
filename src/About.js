@@ -10,10 +10,10 @@ const About = () => {
                         alt="profile"
                     />
                     <div className='col'>
-                        <h3 className='ps-3 text-center'>
+                        <h3 className='text-center'>
                             Justin Schreiber
                         </h3>
-                        <p className='ps-3 pt-2 text-center'>Recent Graduate of Computer Science at Queens College. Proficient in Javascript, Java, NodeJs, React and more.</p>
+                        <p className='pt-2 text-center'>Recent Graduate of Computer Science at Queens College. Proficient in Javascript, Java, NodeJs, React and more.</p>
                     </div>
                 </Container>
             </Container>

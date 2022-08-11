@@ -1,20 +1,21 @@
-import {HashRouter as Router, Route, Routes } from 'react-router-dom'
+import Link from 'next/link'
 import About from './About';
-import Home from './Home'
-import NavbarElement from './NavbarElement'
-import Projects from './Projects'
+import Home from './home'
+import NavbarElement from '../NavbarElement'
+import Projects from './projects'
 
 
 function App() {
   return (
-    <Router>
+    /* <Router>
       <NavbarElement />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/about" element={<About />} />
       </Routes>
-    </Router>
+    </Router>*/
+    <Home />
   );
 }
 

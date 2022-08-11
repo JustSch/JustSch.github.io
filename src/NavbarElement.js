@@ -10,7 +10,7 @@ const NavbarElement = () => {
                 </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">                   
                 <Nav className="me-auto">
-                    <Nav.Link href="/#/projects">
+                    <Nav.Link href="/projects">
                         Projects
                     </Nav.Link>
                     <Nav.Link href="https://github.com/JustSch">
@@ -24,7 +24,7 @@ const NavbarElement = () => {
                     </Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
-                <Button href="/#/about">
+                <Button href="/about">
                     About Me
                 </Button>
             </Container>

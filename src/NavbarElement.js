@@ -1,7 +1,8 @@
 import { Container, Nav, Button } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 /****@TODO fix active highlight
- * 
+ * doesn't decollapse on small screen
+ * Can't be in _documents.js must make add to layout component?
  * 
  * 
  * 

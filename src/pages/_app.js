@@ -3,8 +3,14 @@ import '../home.css'
 import '../index.css'
 import 'animate.css/animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+import NavbarElement from '../NavbarElement';
+function MyApp({ Component, pageProps }) {  
+    return (
+    <>    
+    <NavbarElement />
+    <Component {...pageProps} />
+    </>
+    )
   }
   
   // Only uncomment this method if you have blocking data requirements for
@@ -18,5 +24,7 @@ function MyApp({ Component, pageProps }) {
   //
   //   return { ...appProps }
   // }
+
+  
   
   export default MyApp

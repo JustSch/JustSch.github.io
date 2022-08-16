@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container'
 const About = () => {
     return (
         <div>
-            <NavbarElement />
             <Container>
                 <Container className='row pt-3 w-75 mx-auto'>
                     <img

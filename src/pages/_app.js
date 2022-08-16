@@ -1,4 +1,3 @@
-// import App from 'next/app'
 import '../home.css' 
 import '../index.css'
 import 'animate.css/animate.css';

@@ -23,7 +23,7 @@ const Home = () => {
                     <Carousel.Caption>
                         <h3 className="qc">QC Prof Stat</h3>
                         <p className="qc">Allows Students To See a Grading Distribution</p>
-                        <Button variant="secondary" className="float-end" href="https://qc-prof-stat.web.app.com">See It Here</Button>
+                        <Button variant="secondary" className="float-end" href="https://qc-prof-stat.web.app">See It Here</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>

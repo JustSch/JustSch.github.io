@@ -21,8 +21,8 @@ const Home = () => {
                         alt="QC Prof Stat Screenshot"
                     />
                     <Carousel.Caption>
-                        <h3 className="qc">QC Prof Stat</h3>
-                        <p className="qc">Allows Students To See a Grading Distribution</p>
+                        <h3>QC Prof Stat</h3>
+                        <p>Allows Students To See a Grading Distribution</p>
                         <Button variant="secondary" className="float-end" href="https://qc-prof-stat.web.app">See It Here</Button>
                     </Carousel.Caption>
                 </Carousel.Item>

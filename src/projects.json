@@ -2,8 +2,8 @@
     "projects": [
       {
         "name": "QC Prof Stat",
-        "description": "A website that displays the grading distribution of professors at Queens College built with NodeJS and MySQL available at https://qc-prof-stat.herokuapp.com",
-        "link": "https://qc-prof-stat.herokuapp.com"
+        "description": "A website that displays the grading distribution of professors at Queens College built with NodeJS and Cloud Firestore available at https://qc-prof-stat.web.app.com",
+        "link": "https://qc-prof-stat.web.app.com"
       },
       {
         "name": "Social Media Clone",

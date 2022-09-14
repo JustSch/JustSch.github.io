@@ -1,8 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
-import './home.css'
 import Button from "react-bootstrap/Button";
-import 'animate.css/animate.css';
 const Home = () => {
     return (
         <Container fluid>

@@ -1,4 +1,4 @@
-name: Deploy React Site to Pages
+name: Deploy Next.js Site to Pages
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "build/"
+          path: "out/"
   deploy:
     needs: build
 

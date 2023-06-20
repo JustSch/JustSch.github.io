@@ -33,7 +33,7 @@ const Home = () => {
                     <Carousel.Caption>
                         <h3>Social Media Clone</h3>
                         <p>Clone Of A Social Media Website</p>
-                        <Button variant="secondary" className="float-end" href="https://github.com/JustSch/SocialMediaClone">See It Here</Button>
+                        <Button variant="secondary" className="float-end" href="https://github.com/JustSch/social-media-clone-react-frontend">See It Here</Button>
                     </Carousel.Caption>                    
                 </Carousel.Item>
             </Carousel>

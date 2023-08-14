@@ -1,6 +1,16 @@
 {
     "projects": [
       {
+        "name": "Snapdrop For Desktop",
+        "description": "A desktop port of Snapdrop made using electron, which allows filesharing functionality. Inspired by Apple's Airdrop. Has builds for Windows, Mac OS, and, Linux",
+        "link": "https://github.com/JustSch/node-snapdrop-electron"
+      },
+      {
+        "name": "Scratch JR Desktop",
+        "description": "A desktop port of the children's programming application Scratch Jr with updated dependencies. Has build's for Windows, Mac OS, and, Linux",
+        "link": "https://github.com/JustSch/ScratchJr-Desktop"
+      },
+      {
         "name": "QC Prof Stat",
         "description": "A website that displays the grading distribution of professors at Queens College built with NodeJS and Google Cloud Firestore available at https://qc-prof-stat.web.app",
         "link": "https://qc-prof-stat.web.app"

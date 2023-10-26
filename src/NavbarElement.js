@@ -12,7 +12,7 @@ const NavbarElement = () => {
                 </Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link href="/projects" passHref>
+                        <Link href="/projects" legacyBehavior passHref>
                             <Nav.Link>
                                 Projects
                             </Nav.Link>

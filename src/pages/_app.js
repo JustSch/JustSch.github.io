@@ -2,7 +2,8 @@ import '../home.css'
 import '../index.css'
 import 'animate.css/animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarElement from '../NavbarElement';
+import dynamic from 'next/dynamic'
+const NavbarElement = dynamic(() => import('../NavbarElement'), { ssr: false })
 function MyApp({ Component, pageProps }) {  
     return (
     <>    
